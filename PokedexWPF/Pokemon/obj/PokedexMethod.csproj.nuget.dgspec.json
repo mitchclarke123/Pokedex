@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {}
+    "C:\\Users\\mitch\\Source\\Repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
+    "C:\\Users\\mitch\\Source\\Repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
+        "projectUniqueName": "C:\\Users\\mitch\\Source\\Repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
         "projectName": "PokedexMethod",
-        "projectPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
-        "packagesPath": "C:\\Users\\TECH-W129birm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\obj\\",
+        "projectPath": "C:\\Users\\mitch\\Source\\Repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
+        "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mitch\\Source\\Repos\\Pokedex\\PokedexWPF\\Pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\TECH-W129birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -37,6 +37,20 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.2, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
+using PokeDexApp;
 
 namespace PokedexWPF
 {
@@ -20,6 +22,9 @@ namespace PokedexWPF
     /// </summary>
     public partial class MainWindow : Window
     {
+        PokedexLogin s;
+
+        
         public MainWindow()
         {
             InitializeComponent();
@@ -28,6 +33,26 @@ namespace PokedexWPF
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
+        }
+
+        private void PlayButton(object sender, RoutedEventArgs e)
+        {
+            PlayWindow PlayWindow = new PlayWindow();
+            PlayWindow.Show();
+        }
+
+        private void OnOffButton(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void OnOffImage_Click(object sender, RoutedEventArgs e)
+        {
+            if (s.On == true)
+            {
+                MusicPlayer.Source = new Uri(@"C:\Users\mitch\Source\Repos\Pokedex\Songs");
+                MusicPlayer.Play();
+            }
         }
     }
 }
