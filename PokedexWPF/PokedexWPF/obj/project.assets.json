@@ -5494,19 +5494,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\TECH-W129birm\\.nuget\\packages\\": {}
+    "C:\\Users\\mitch\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\PokedexWPF\\PokedexWPF.csproj",
+      "projectUniqueName": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\PokedexWPF\\PokedexWPF.csproj",
       "projectName": "PokedexWPF",
-      "projectPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\PokedexWPF\\PokedexWPF.csproj",
-      "packagesPath": "C:\\Users\\TECH-W129birm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\PokedexWPF\\obj\\",
+      "projectPath": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\PokedexWPF\\PokedexWPF.csproj",
+      "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\PokedexWPF\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\TECH-W129birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5519,8 +5519,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
-              "projectPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj"
+            "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
+              "projectPath": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj"
             }
           }
         }

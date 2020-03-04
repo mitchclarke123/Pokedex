@@ -4,7 +4,13 @@ using System.Text;
 
 namespace PokedexWPF
 {
-    class GameLogic
+    public class GameLogic
     {
+        private string answer;
+
+        public void Answer()
+        {
+
+        }
     }
 }

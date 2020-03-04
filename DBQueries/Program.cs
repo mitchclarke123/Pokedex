@@ -9,7 +9,9 @@ namespace DBQueries
     class Program
     {
         public static void Main(string []args)
-        {       // quueries for bulbasaur data
+        {
+            
+            // quueries for bulbasaur data
             using (var db = new POKEDEXPOKEMONContext())
             {
                 //q1 string (bulbasaur)
@@ -21,6 +23,7 @@ namespace DBQueries
                 {
                     Console.WriteLine(a1);
                 }
+
 
                 //image string (bulbasaur)
                 var Image1q =
@@ -41,7 +44,17 @@ namespace DBQueries
                     Console.WriteLine(i2);
                 }
 
+                {
+                    var input = Console.ReadLine();
+                    if (input == Answer1q.ToString())
+                    {
+                        Console.WriteLine("Well Done");
+                    }
+                    else
+                    {
 
+                    }
+                }
             }
         }
     }
