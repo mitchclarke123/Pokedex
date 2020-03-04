@@ -32,7 +32,7 @@
         </StackPanel>
 
         <StackPanel>
-            <Button x:Name="PlayButton" Content="Lets Play!"
+            <Button x:Name="Play" Content="Lets Play!"
                 HorizontalAlignment="Center"
                 Height="36" Margin="0,300,0,0" 
                 Width="96" Click="PlayButton" Background="Red" BorderBrush="WhiteSmoke"/>
@@ -47,6 +47,6 @@
             </Button.Foreground>
         </Button>
         <Rectangle Stroke="DarkRed" Margin="44,279,44,93"/>
-        <MediaElement Height="120" Margin="105,39,11,0" LoadedBehavior="Manual" Name="MusicPlayer" VerticalAlignment="Top" Grid.Column="1" />
+        <MediaElement Height="180" Margin="11,39,11,0" LoadedBehavior="Manual" Name="MusicPlayer" VerticalAlignment="Top" />
     </Grid>
 </Window>

@@ -1,14 +1,30 @@
---DROP DATABASE 
+--DROP DATABASE POKEDEXPOKEMON
 
---CREATE DATABASE POKEDEXDB
+--CREATE DATABASE POKEDEXPOKEMON
 
 --DROP TABLE Pokemon
 
---CREATE TABLE Pokemon
---(
--- PokemonID INT NOT NULL IDENTITY (1,1) PRIMARY KEY
---,PokemonName VARCHAR(30)
---);
+CREATE TABLE Pokemon
+(
+PokemonID INT NOT NULL IDENTITY (1,1) PRIMARY KEY
+,PokemonName VARCHAR(30)
+,PokemonImage1 VARCHAR(30)
+,PokemonImage2 VARCHAR (30)
+);
+
+
+	INSERT   [Pokemon]
+			([PokemonName]
+			,[PokemonImage1]
+			,[PokemonImage2])
+	VALUES
+		   ('Bulbasaur'
+		   ,'bulbasaur'
+		   ,'bulbasaur blacked')
+; 
+
+
+
 
 
 --CREATE TABLE PokemonImage

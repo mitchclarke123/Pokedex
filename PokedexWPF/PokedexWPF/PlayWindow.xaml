@@ -6,4 +6,23 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PokedexWPF"
         mc:Ignorable="d"
-        Title="PlayWindow" Height="450" Width="800"/>
+        Title="PlayWindow" Height="450" Width="849" Background="DarkRed">
+
+    <Grid HorizontalAlignment="Center" Width="849" Height="424">
+        <Grid HorizontalAlignment="Left" Height="430" Margin="424,0,0,0" VerticalAlignment="Center" Width="425">
+            <Rectangle x:Name="ImageFrame" HorizontalAlignment="Center" Height="410" Stroke="Black" VerticalAlignment="Center" Width="341">
+                <Rectangle.OpacityMask>
+                    <LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop Color="Black"/>
+                        <GradientStop Color="White" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.OpacityMask>
+            </Rectangle>
+            <Image x:Name="bulbasaur_blacked" HorizontalAlignment="Left" Height="410" VerticalAlignment="Center" Width="341" Margin="40,0,0,0" Source="bulbasaur blacked.jpg"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" Height="430" VerticalAlignment="Center" Width="424">
+            <Label x:Name="Answer_box" Content="Enter Answer Below" HorizontalAlignment="Left" Height="34" Margin="93,266,0,0" VerticalAlignment="Top" Width="221" FontSize="24" Background="White"/>
+        </Grid>
+        <TextBox HorizontalAlignment="Left" Height="70" Margin="103,303,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" Background="White" FontSize="24"/>
+    </Grid>
+</Window>

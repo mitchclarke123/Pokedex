@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using System.IO;
+using Microsoft.EntityFrameworkCore;
 using PokeDexApp;
 
 namespace PokedexWPF
@@ -37,7 +38,7 @@ namespace PokedexWPF
 
         private void PlayButton(object sender, RoutedEventArgs e)
         {
-            PlayWindow PlayWindow = new PlayWindow();
+            Window PlayWindow = new Window();
             PlayWindow.Show();
         }
 
