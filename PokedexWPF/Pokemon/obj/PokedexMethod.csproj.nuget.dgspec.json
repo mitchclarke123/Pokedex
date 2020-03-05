@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {}
+    "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
+    "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
+        "projectUniqueName": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
         "projectName": "PokedexMethod",
-        "projectPath": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
-        "packagesPath": "C:\\Users\\mitch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mitch\\source\\repos\\Pokedex\\PokedexWPF\\Pokemon\\obj\\",
+        "projectPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\PokedexMethod.csproj",
+        "packagesPath": "C:\\Users\\TECH-W129birm\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\TECH-W129birm\\Documents\\Sparta Global Mitchell Work\\Week 6\\PokedexWPF\\Pokemon\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\mitch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\TECH-W129birm\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

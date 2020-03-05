@@ -48,5 +48,6 @@
         </Button>
         <Rectangle Stroke="DarkRed" Margin="44,279,44,93"/>
         <MediaElement Height="180" Margin="11,39,11,0" LoadedBehavior="Manual" Name="MusicPlayer" VerticalAlignment="Top" />
+        
     </Grid>
 </Window>

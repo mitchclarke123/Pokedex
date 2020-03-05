@@ -12,14 +12,89 @@ using System.Windows.Shapes;
 
 namespace PokedexWPF
 {
+
     /// <summary>
     /// Interaction logic for PlayWindow.xaml
     /// </summary>
     public partial class PlayWindow : Window
     {
+        private string _path = @"C:\Users\TECH-W129birm\Documents\Sparta Global Mitchell Work\Week 6\Images";
+        GameLogic a;
         public PlayWindow()
         {
             InitializeComponent();
+            a = new GameLogic();
         }
+
+        private void TextBox_Answer(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_AnswerBox1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+
+        {
+            a.TheirAnswer = AnswerBox1.Text;
+            a.AnswerComparison();
+            {
+                if (a.AnswerComparison() == true)
+                { 
+
+                }
+
+                
+            }
+        }
+
+        //AnswerBox1.Text = $"{a.CorrectAnswer()}";
+        //if (AnswerBox1.Text == $"{a.CorrectAnswer()}")
+        //{
+        //pkImage.Source = new BitmapImage(new Uri(a.));
+        //}
+
+
     }
-}
+}   
+
+
+
+
+        //string CorrectAnswer()
+        //{
+        //    string y = "yes";
+        //    string n = "no";
+
+        //    using var db = new POKEDEXPOKEMONContext();
+        //    //q1 string (Bulbasaur)
+        //    {
+        //        var Answer1q =
+        //            from a1 in db.Pokemon
+        //            select a1;
+
+        //        foreach (var a1 in Answer1q)
+        //        {
+
+        //            if (_answer == a1.ToString())
+        //            {
+        //                return y;
+        //            }
+        //            else
+        //            {
+        //                return n;
+        //            }
+        //        }
+        //    }
+        //}
+
+    
+

@@ -31,4 +31,8 @@
     <Resource Include="Main menu pic1.0.jpg" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="NewFolder\" />
+  </ItemGroup>
+
 </Project>

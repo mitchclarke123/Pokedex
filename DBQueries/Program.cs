@@ -10,25 +10,30 @@ namespace DBQueries
     {
         public static void Main(string []args)
         {
-            
+
             // quueries for bulbasaur data
             using (var db = new POKEDEXPOKEMONContext())
             {
-                //q1 string (bulbasaur)
-                var Answer1q = 
+                //q1 string (Bulbasaur)
+                var Answer1q =
                     from a1 in db.Pokemon
                     select a1;
-                
-                foreach (var a1 in Answer1q) 
-                {
-                    Console.WriteLine(a1);
-                }
 
+                foreach (var a1 in Answer1q)
+                {
+                    var input = Console.ReadLine();
+                    if (input == a1.ToString())
+                        Console.WriteLine("Good job");
+                    else
+                    {
+                        Console.WriteLine("you suck");
+                    }
+                }
 
                 //image string (bulbasaur)
                 var Image1q =
-                    from i1 in db.Pokemon
-                    select i1.PokemonImage1;
+                        from i1 in db.Pokemon
+                        select i1.PokemonImage1;
 
                 foreach (var i1 in Image1q)
                 {
@@ -36,25 +41,29 @@ namespace DBQueries
                 }
 
                 //blacked out image string(bulbasaur blacked)
-                var Image21q =
+                var Image2q1 =
                     from i2 in db.Pokemon
                     select i2.PokemonImage2;
-                foreach(var i2 in Image21q)
+                foreach (var i2 in Image2q1)
                 {
                     Console.WriteLine(i2);
                 }
 
                 {
-                    var input = Console.ReadLine();
-                    if (input == Answer1q.ToString())
-                    {
-                        Console.WriteLine("Well Done");
-                    }
-                    else
-                    {
-
-                    }
+                    // test method
+                    //var input = Console.ReadLine();
+                    //if (input == Answer1q.ToString())
+                    //
+                    //Console.WriteLine(Answer1q);
+                    //}
+                    // else
+                    //{
+                    //    Console.WriteLine("U SUCK");
+                    // }
                 }
+
+                
+            
             }
         }
     }

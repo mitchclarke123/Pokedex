@@ -38,8 +38,10 @@ namespace PokedexWPF
 
         private void PlayButton(object sender, RoutedEventArgs e)
         {
-            Window PlayWindow = new Window();
-            PlayWindow.Show();
+            PlayWindow PW = new PlayWindow();
+            PW.Show();
+            Close();
+            
         }
 
         private void OnOffButton(object sender, RoutedEventArgs e)
