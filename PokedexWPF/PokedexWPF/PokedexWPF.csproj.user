@@ -7,15 +7,27 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="PlayWindow.xaml.cs">
+    <Compile Update="Correct1.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Correct2.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <Page Update="Correct1.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Correct2.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="MainWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="PlayWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="PlayWindow2.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

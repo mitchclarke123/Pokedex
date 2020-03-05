@@ -11,9 +11,9 @@ namespace PokedexWPF
         //fields withing game logic 
         private string _actualAnswer;
         private string _answer;
-        private Pokemon _currentPokemon;
+        //private Pokemon _currentPokemon;
         private List<Pokemon> Answers;
-
+        public int _currentP = 0;
         // list query
         public GameLogic()
         {
@@ -39,8 +39,17 @@ namespace PokedexWPF
 
         public string CorrectAnswer()
         {
-            _actualAnswer = Answers[0].ToString();
-            return _actualAnswer;
+            if (_currentP < 2)
+            {
+               
+                return Answers[_currentP].ToString();
+                
+            }
+            return "";
+
+            //_actualAnswer = Answers[i].ToString();//Bulbasaur
+            // return _actualAnswer;
+
         }
 
         public bool AnswerComparison()
@@ -55,10 +64,11 @@ namespace PokedexWPF
             }
             
         }
+        
 
 
+            // thanos query that "wasnt good practice"
 
-            
             //using (var db = new POKEDEXPOKEMONContext())
             //{
             //    //q1 string (Bulbasaur)

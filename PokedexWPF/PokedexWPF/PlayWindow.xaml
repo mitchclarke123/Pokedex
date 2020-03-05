@@ -22,13 +22,14 @@
                     </LinearGradientBrush>
                 </Rectangle.OpacityMask>
             </Rectangle>
-            <Image x:Name="bulbasaur_blacked" HorizontalAlignment="Center" Height="410" VerticalAlignment="Center" Width="341" Source="bulbasaur blacked.jpg"/>
+            <Image x:Name="bulbasaur_blacked" HorizontalAlignment="Center" Height="410" VerticalAlignment="Center" Width="341" Source="Bulbasaur Blacked.png"/>
         </Grid>
         <Grid HorizontalAlignment="Left" Height="430" VerticalAlignment="Center" Width="424">
-            <Label x:Name="Answer_box" Content="Enter Answer Below" HorizontalAlignment="Left" Height="34" Margin="93,266,0,0" VerticalAlignment="Top" Width="221" FontSize="24" Background="White" BorderBrush="Black"/>
-            <Button Content="Check" HorizontalAlignment="Left" Height="65" Margin="334,306,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click" Background="#FF7F2424"/>
+            <Label x:Name="Answer_box" Content="Enter Answer Below" HorizontalAlignment="Left" Height="34" Margin="93,266,0,0" VerticalAlignment="Top" Width="221" FontSize="24" Background="{x:Null}" BorderBrush="Black" Foreground="#DD000000"/>
+            <Button x:Name="CheckButton" Content="Check" HorizontalAlignment="Left" Height="65" Margin="334,313,0,0" VerticalAlignment="Top" Width="80" Click="Button_Click" Background="#FFFF0C0C" BorderBrush="White"/>
         </Grid>
-        <TextBox x:Name="AnswerBox1" HorizontalAlignment="Left" Height="70" Margin="103,303,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" Background="White" FontSize="24" TextChanged="TextBox_AnswerBox1"/>
+        <TextBox x:Name="AnswerBox1" HorizontalAlignment="Left" Height="70" Margin="103,303,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="198" FontSize="24" TextChanged="TextBox_AnswerBox1" BorderBrush="{x:Null}"/>
         <Image HorizontalAlignment="Left" Height="100" Margin="225,-65,0,0" VerticalAlignment="Top" Width="100"/>
+        <Rectangle HorizontalAlignment="Left" Height="70" Margin="103,303,0,0" Stroke="Black" VerticalAlignment="Top" Width="198"/>
     </Grid>
 </Window>

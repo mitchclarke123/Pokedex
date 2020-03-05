@@ -48,8 +48,11 @@ namespace PokedexWPF
             a.AnswerComparison();
             {
                 if (a.AnswerComparison() == true)
-                { 
-
+                {
+                    a._currentP++;
+                    Correct1 C1 = new Correct1();
+                    C1.Show();
+                    Close();
                 }
 
                 
