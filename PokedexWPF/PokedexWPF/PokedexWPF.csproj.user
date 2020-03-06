@@ -7,7 +7,7 @@
     </ApplicationDefinition>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="Correct1.xaml.cs">
+    <Compile Update="Correct.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
     <Compile Update="Correct2.xaml.cs">
@@ -15,7 +15,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Update="Correct1.xaml">
+    <Page Update="Correct.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Correct2.xaml">

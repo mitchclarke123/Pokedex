@@ -31,7 +31,7 @@ namespace PokedexWPF
 
         }
 
-        private void TextBox_AnswerBox1(object sender, TextChangedEventArgs e)
+        private void TextBox_AnswerBox2(object sender, TextChangedEventArgs e)
         {
 
         }
@@ -45,18 +45,23 @@ namespace PokedexWPF
 
         {
             a.TheirAnswer = AnswerBox1.Text;
-            a.AnswerComparison();
+            a.AnswerComparison2();
             {
-                if (a.AnswerComparison() == true)
+                if (a.AnswerComparison2() == true)
                 {
-                    
-                    Correct1 C1 = new Correct1();
+
+                    Correct C1 = new Correct();
                     C1.Show();
                     Close();
                 }
 
-                
+
             }
+        }
+
+        private void TextBox_AnswerBox1(object sender, TextChangedEventArgs e)
+        {
+
         }
 
         //AnswerBox1.Text = $"{a.CorrectAnswer()}";
@@ -67,37 +72,37 @@ namespace PokedexWPF
 
 
     }
-}   
+}
 
 
 
 
-        //string CorrectAnswer()
-        //{
-        //    string y = "yes";
-        //    string n = "no";
+//string CorrectAnswer()
+//{
+//    string y = "yes";
+//    string n = "no";
 
-        //    using var db = new POKEDEXPOKEMONContext();
-        //    //q1 string (Bulbasaur)
-        //    {
-        //        var Answer1q =
-        //            from a1 in db.Pokemon
-        //            select a1;
+//    using var db = new POKEDEXPOKEMONContext();
+//    //q1 string (Bulbasaur)
+//    {
+//        var Answer1q =
+//            from a1 in db.Pokemon
+//            select a1;
 
-        //        foreach (var a1 in Answer1q)
-        //        {
+//        foreach (var a1 in Answer1q)
+//        {
 
-        //            if (_answer == a1.ToString())
-        //            {
-        //                return y;
-        //            }
-        //            else
-        //            {
-        //                return n;
-        //            }
-        //        }
-        //    }
-        //}
+//            if (_answer == a1.ToString())
+//            {
+//                return y;
+//            }
+//            else
+//            {
+//                return n;
+//            }
+//        }
+//    }
+//}
 
-    
+
 

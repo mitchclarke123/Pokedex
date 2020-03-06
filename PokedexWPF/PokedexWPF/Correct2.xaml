@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PokedexWPF"
         mc:Ignorable="d"
-        Title="Correct1" Height="450" Width="400" Background="DarkRed">
+        Title="Correct2" Height="450" Width="400" Background="DarkRed">
 
     <Grid>
         <Image x:Name="Pikachu" HorizontalAlignment="Center" Height="362" VerticalAlignment="Top" Width="396" Source="Pikachu.png" Margin="0,1,0,0"/>

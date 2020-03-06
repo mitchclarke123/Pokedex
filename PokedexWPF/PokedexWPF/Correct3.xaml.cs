@@ -13,27 +13,13 @@ using System.Windows.Shapes;
 namespace PokedexWPF
 {
     /// <summary>
-    /// Interaction logic for Correct1.xaml
+    /// Interaction logic for Correct3.xaml
     /// </summary>
-    public partial class PlayWindow3 : Window
+    public partial class Correct3 : Window
     {
-        public PlayWindow3()
+        public Correct3()
         {
             InitializeComponent();
-        }
-
-        private void Button_Click3(object sender, RoutedEventArgs e)
-        {
-
-            PlayWindow3 P3 = new PlayWindow3();
-            P3.Show();
-            Close();
-
-        }
-
-        private void TextBox_AnswerBox3(object sender, TextChangedEventArgs e)
-        {
-
         }
     }
 }

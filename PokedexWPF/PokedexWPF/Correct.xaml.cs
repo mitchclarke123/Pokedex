@@ -15,9 +15,9 @@ namespace PokedexWPF
     /// <summary>
     /// Interaction logic for Correct1.xaml
     /// </summary>
-    public partial class Correct1 : Window
+    public partial class Correct : Window
     {
-        public Correct1()
+        public Correct()
         {
             InitializeComponent();
         }

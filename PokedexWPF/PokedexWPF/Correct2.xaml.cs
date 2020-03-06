@@ -25,6 +25,9 @@ namespace PokedexWPF
         private void Button_Click(object sender, RoutedEventArgs e)
         {
 
+            PlayWindow3 P3 = new PlayWindow3();
+            P3.Show();
+            Close();
 
         }
     }
