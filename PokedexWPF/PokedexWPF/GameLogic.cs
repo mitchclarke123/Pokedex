@@ -24,7 +24,17 @@ namespace PokedexWPF
                      select p).ToList();
             }
         }
+        public List<Pokemon> GetList()
+        {
+         using (var db = new POKEDEXPOKEMONContext())
 
+            {
+                return db.Pokemon.ToList();
+            }
+
+        }
+
+        // create a constructor, get set 
 
         public string TheirAnswer
         {
@@ -37,18 +47,21 @@ namespace PokedexWPF
             }
         }
 
+        
         public string CorrectAnswer()
         {
-            if (_currentP < 2)
-            {
-               
-                return Answers[_currentP].ToString();
-                
-            }
-            return "";
+            Answers = GetList();
+            var a = Answers[0];
 
-            //_actualAnswer = Answers[i].ToString();//Bulbasaur
-            // return _actualAnswer;
+
+            _actualAnswer = a.ToString();
+            return _actualAnswer;
+
+            //if (_currentP < 2)
+            //{               
+            //    return Answers[_currentP].ToString();                
+            //}
+            //return "";
 
         }
 
@@ -64,33 +77,82 @@ namespace PokedexWPF
             }
             
         }
-        
+
+        public string CorrectAnswer2()
+
+        {
+            Answers = GetList();
+            var b = Answers[1];
 
 
-            // thanos query that "wasnt good practice"
+            _actualAnswer = b.ToString();
+            return _actualAnswer;
+        }
 
-            //using (var db = new POKEDEXPOKEMONContext())
-            //{
-            //    //q1 string (Bulbasaur)
-            //    var Answer1q =
-            //        from a1 in db.Pokemon
-            //        select a1;
-            //    foreach (var a1 in Answer1q)
-            //    {
 
-            //        if (TheirAnswer == a1.ToString())
-            //        {
-            //            return "Correct";
-            //        }
-            //        else
-            //        {
-            //            return "Wrong";
+        public bool AnswerComparison2()
+        {
+            if (TheirAnswer == CorrectAnswer2())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
 
-            //        }
-            //    }
-            //}
-            //return "nope";
-        
+        }
+
+        // third answer
+        public string CorrectAnswer3()
+
+        {
+            Answers = GetList();
+            var c = Answers[2];
+
+
+            _actualAnswer = c.ToString();
+            return _actualAnswer;
+        }
+
+        public bool AnswerComparison3()
+        {
+            if (TheirAnswer == CorrectAnswer3())
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
+
+
+        // thanos query that "wasnt good practice"
+
+        //using (var db = new POKEDEXPOKEMONContext())
+        //{
+        //    //q1 string (Bulbasaur)
+        //    var Answer1q =
+        //        from a1 in db.Pokemon
+        //        select a1;
+        //    foreach (var a1 in Answer1q)
+        //    {
+
+        //        if (TheirAnswer == a1.ToString())
+        //        {
+        //            return "Correct";
+        //        }
+        //        else
+        //        {
+        //            return "Wrong";
+
+        //        }
+        //    }
+        //}
+        //return "nope";
+
     }
 }
 

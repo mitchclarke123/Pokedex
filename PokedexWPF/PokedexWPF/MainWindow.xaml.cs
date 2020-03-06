@@ -24,11 +24,12 @@ namespace PokedexWPF
     public partial class MainWindow : Window
     {
         PokedexLogin s;
-
+        GameLogic a;
         
         public MainWindow()
         {
             InitializeComponent();
+
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -40,7 +41,7 @@ namespace PokedexWPF
         {
             PlayWindow PW = new PlayWindow();
             PW.Show();
-            Close();
+           
             
         }
 

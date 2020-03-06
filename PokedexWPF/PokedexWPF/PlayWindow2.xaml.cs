@@ -45,11 +45,11 @@ namespace PokedexWPF
 
         {
             b.TheirAnswer = AnswerBox2.Text;
-            b.AnswerComparison();
+            b.AnswerComparison2();
             {
-                if (b.AnswerComparison() == true)
+                if (b.AnswerComparison2() == true)
                 {
-                    b._currentP++;
+                    
                     Correct2 C2 = new Correct2();
                     C2.Show();
                     Close();
